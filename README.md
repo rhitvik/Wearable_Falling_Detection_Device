@@ -51,38 +51,38 @@ These vibration switches are non-directional vibration induced trigger switches.
 1. Easy Vibration Sensor
 * Can be triggered with the slightest of the motion. So, not very useful to detect strong acceleration but can be used to turn on/off the device when taking off the user's hands and placing it on the shelf. This feature can help a lot to save power.
 2. Medium Vibration Sensor
-These are not so easy to trigger sensors but in case a shock is experienced, the coils will trigger a number of times, the frequency of which can be taken into consideration along with the Hard Vibration sensor to draw conclusions about an occoured event.
+These are not so easy to trigger sensors but in case a shock is experienced, the coils will trigger several times, the frequency of which can be taken into consideration along with the Hard Vibration sensor to conclude an occurred event.
 3. Hard Vibration Sensor
-Similar to medium vibration sensor but with a stiffer spring, these sensors are going to make a ceartain number of triggers but are lower in count compared to the medium switch for a same amount of vibration.
+Similar to medium vibration sensors but with a stiffer spring, these sensors are going to make a certain number of triggers but are lower in count compared to the medium switch for the same amount of vibration.
 * **ADXL343 Accelerometer**
-This is a triple-axis accelerometer with digital I2C and SPI interface breakout. It has a wide sensitivity range and high resolution, operating with an 10 or 13-bit internal ADC. Built-in motion detection features make tap, double-tap, activity, inactivity, and free-fall detection trivial. There's two interrupt pins, and you can map any of the interrupts independently to either of them.
-The sensor has three axes of measurements, X Y Z, and pins that can be used either as I2C or SPI digital interfacing. You can set the sensitivity level to either +-2g, +-4g, +-8g or +-16g. The lower range gives more resolution for slow movements, the higher range is good for high speed tracking. 
+This is a triple-axis accelerometer with digital I2C and SPI interface breakout. It has a wide sensitivity range and high resolution, operating with a 10 or 13-bit internal ADC. Built-in motion detection features make tap, double-tap, activity, inactivity, and free-fall detection trivial. There are two interrupt pins, and you can map any of the interrupts independently to either of them.
+The sensor has three axes of measurements, X Y Z, and pins that can be used either as I2C or SPI digital interfacing. You can set the sensitivity level to either +-2g, +-4g, +-8g or +-16g. The lower range gives more resolution for slow movements, the higher range is good for high-speed tracking. 
 * **US5881LUA (Hall-Effect Sensor)**
 Hall effect sensors detect whether a magnet is near. Useful for non-contact/waterproof type switches, position sensors, rotary/shaft encoders.
-Runs at 3.5V up to 24V. To use connect power to pin 1 (all the way to the left), ground to pin 2 (middle) and then a 10K pull up resistor from pin 3 to power. Then listen on pin 3, when the south pole of a magnet is near the front of the sensor, pin 3 will go down to 0V. Otherwise it will stay at whatever the pullup resistor is connected to. Nothing occurs if a magnet's north pole is nearby (unipolar).
-This is used to ensure that the device put on by the user has not came loose as the magnets will immidiately trigger the microcontroller about such an event and a warning Led can be turned on. 
-### Development Platform | Teesny 3.2
+Runs at 3.5V up to 24V. To use connect power to pin 1 (to the left), ground to pin 2 (middle) and then a 10K pull up resistor from pin 3 to power. Then listen on pin 3, when the south pole of a magnet is near the front of the sensor, pin 3 will go down to 0V. Otherwise, it will stay at whatever the pullup resistor is connected to. Nothing occurs if a magnet's north pole is nearby (unipolar).
+This is used to ensure that the device put on by the user has not come loose as the magnets will immediately trigger the microcontroller about such an event and a warning Led can be turned on. 
+### Development Platform | Teeny 3.2
 The Teensy 3.2 is a complete USB-based microcontroller development system, in a very small footprint, capable of implementing many types of projects. All programming is done via the USB port. No special programmer is needed, only a standard Mini-B USB cable and a PC or Macintosh with a USB port.
 - 32-bit ARM Cortex-M4 72MHz CPU (M4 = DSP extensions)
 - 256K Flash Memory, 64K RAM, 2K EEPROM
-- 21 High Resolution Analog Inputs (13 bits usable, 16 bit hardware)
+- 21 High-Resolution Analog Inputs (13 bits usable, 16-bit hardware)
 - 34 Digital I/O Pins (5V tolerance on Digital Inputs)
 - 12 PWM outputs
 - 7 Timers for intervals/delays, separate from PWM
 - USB with dedicated DMA memory transfers
 - 3 UARTs (serial ports)
-- SPI, I²C, I²S,CAN Bus, IR modulator
-- I²S (for high quality audio interface)
-- Real Time Clock (with user-added 32.768 crystal and battery)
+- SPI, I²C, I²S, CAN Bus, IR modulator
+- I²S (for high-quality audio interface)
+- Real-Time Clock (with user-added 32.768 crystal and battery)
 - 16 DMA channels (separate from USB)
 - Touch Sensor Inputs
 
 ### Power Supply and Battery
 * **Battery**
-Lithium Ion Polymer Battery - 3.7v 500mAh
-The batteries come pre-attached with a genuine 2-pin JST-PH connector as shown and include the necessary protection circuitry. Because they have a genuine JST connector, not a knock-off, the cable wont snag or get stuck in a matching JST jack, they click in and out smoothly. 
+Lithium-Ion Polymer Battery - 3.7v 500mAh
+The batteries come pre-attached with a genuine 2-pin JST-PH connector as shown and include the necessary protection circuitry. Because they have a genuine JST connector, not a knock-off, the cable won't snag or get stuck in a matching JST jack, they click in and out smoothly. 
 
-The included protection circuitry keeps the battery voltage from going too high (over-charging) or low (over-use) which means that the battery will cut-out when completely dead at 3.0V. It will also protect against output shorts. However, even with this protection it is very important that you only use a LiIon/LiPoly constant-voltage/constant-current charger to recharge them and at a rate of 500mA or less
+The included protection circuitry keeps the battery voltage from going too high (over-charging) or low (over-use) which means that the battery will cut-out when completely dead at 3.0V. It will also protect against output shorts. However, even with this protection, it is very important that you only use a LiIon/LiPoly constant-voltage/constant-current charger to recharge them and at a rate of 500mA or less
 * **Charge Controller**
 Adafruit Micro Lipo - USB LiIon/LiPoly charger - v1 
 To be with Adafruit LiPoly/LiIon batteries only! Other batteries may have different voltage, chemistry, polarity or pinout.
@@ -98,28 +98,28 @@ The MicroLipo charger can get hot during charging. Grab it by the sides and unpl
 * **Solderless BreadBoard**
 For initial prototyping and debugging
 * **Perforated Board**
-to integrate everything we can solder everthing on to the solder board so that the components in the final prototype can be rugged and reliable.
+to integrate everything we can solder everything on to the solder board so that the components in the final prototype can be rugged and reliable.
 * **Header Pins**
 To be soldered on to the teensy board as well as the accelerometer boards for fixing it onto the perforated board.
 * **Resistors**
 Used for Biasing, Current limiting and, pulling up certain pins in the microcontroller.
 * **Capacitors**
-For signal conditioning and imporved stability. Also can be used for mechanical debouncing. 
+For signal conditioning and improved stability. It also can be used for mechanical debouncing. 
 * **LEDs (4 Different Colors)**
-4 Different Leds can tell 4 scenearios:
+4 Different LEDs can tell 4 scenarios:
 1. A falling event has occurred
-2. Potential accident detected. Press button on the deevice within a given amount of time or an SOS call will be placed.
-3. Manual distress detected as the user has incoked the SOS event himself/herself.
-4. Band has come off loose and the user might want to put on the device properly. 
+2. Potential accident detected. Press button on the device within a given amount of time or an SOS call will be placed.
+3. Manual distress detected as the user has invoked the SOS event himself/herself.
+4. The band has come off loose and the user might want to put on the device properly. 
 * **Single Core Wire**
 For general circuitry and signal communication
 
 * **Magnets**
-For triggering the Hall Effevt Sensors in case the band comes off loose in the devoce worn by the user.
+For triggering the Hall Effect Sensors in case the band comes off loose in the device worn by the user.
 
 ## Engineering the System
-Based on the potential events described, the system was designed by taking all teh possible factors into consideration to detect the fall and even exercise some abstruse contengcies to invoke alerts even in the distressful events that are now related to falling down.
-Many power saving features were also used and some that are described were not implemented as the prototype was developed to cover the base case contengencies.
+Based on the potential events described, the system was designed by considering all the possible factors to detect the fall and even exercise some abstruse contingencies to invoke alerts even in the distressful events that are now related to falling.
+Many power saving features were also used and some that are described were not implemented as the prototype was developed to cover the base case contingencies.
 
 ## Pictures
 
