@@ -39,9 +39,9 @@ An SOS call can be placed manually by the person wearing it. Although not design
 
 
 ## Firmware Code
-[Firmware Code](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Codes/Code_Main/Fall_Detection_System_Teensey/Fall_Detection_System_Teensey.ino)
+[Please Click Here](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Codes/Code_Main/Fall_Detection_System_Teensey/Fall_Detection_System_Teensey.ino)
 
-## Circuit Employed
+## Sensors Employed
 
 ## Pictures
 
