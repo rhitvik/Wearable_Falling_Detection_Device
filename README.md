@@ -81,15 +81,11 @@ The Teensy 3.2 is a complete USB-based microcontroller development system, in a 
 * **Battery**
 Lithium-Ion Polymer Battery - 3.7v 500mAh
 The batteries come pre-attached with a genuine 2-pin JST-PH connector as shown and include the necessary protection circuitry. Because they have a genuine JST connector, not a knock-off, the cable won't snag or get stuck in a matching JST jack, they click in and out smoothly. 
-
 The included protection circuitry keeps the battery voltage from going too high (over-charging) or low (over-use) which means that the battery will cut-out when completely dead at 3.0V. It will also protect against output shorts. However, even with this protection, it is very important that you only use a LiIon/LiPoly constant-voltage/constant-current charger to recharge them and at a rate of 500mA or less
 * **Charge Controller**
 Adafruit Micro Lipo - USB LiIon/LiPoly charger - v1 
 To be with Adafruit LiPoly/LiIon batteries only! Other batteries may have different voltage, chemistry, polarity or pinout.
-
-Comes assembled and tested with a free bonus JST cable!
-5V input via PCB-style USB connector
-For charging single Lithium Ion/Lithium Polymer 3.7/4.2v batteries (not for older 3.6/4.1v cells)
+5V input via PCB-style USB connector For charging single Lithium Ion/Lithium Polymer 3.7/4.2v batteries (not for older 3.6/4.1v cells)
 100mA charge current, adjustable to 500mA by soldering a jumper closed
 Free 2-pin JST cable included!
 The MicroLipo charger can get hot during charging. Grab it by the sides and unplug then let cool before removing the battery - take care not to touch the components during charging!
@@ -98,7 +94,7 @@ The MicroLipo charger can get hot during charging. Grab it by the sides and unpl
 * **Solderless BreadBoard**
 For initial prototyping and debugging
 * **Perforated Board**
-to integrate everything we can solder everything on to the solder board so that the components in the final prototype can be rugged and reliable.
+To integrate everything we can solder everything on to the solder board so that the components in the final prototype can be rugged and reliable.
 * **Header Pins**
 To be soldered on to the teensy board as well as the accelerometer boards for fixing it onto the perforated board.
 * **Resistors**
