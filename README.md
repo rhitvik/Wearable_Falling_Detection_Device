@@ -11,6 +11,7 @@ The development platform used for this prototype is teensy 3.2 featuring an ARM 
 We can also use a Teensy 4.0 (600 MHz) over Teensy 3.2 (72 MHz) but talking from a wearable device perspective, the Cortex M-4 is more conservative when it comes to consuming power. Also, modeled more towards signal processing models, Teensy 4.0 although more powerful might not the best choice for the project.
 
 ### Teensy 3.2 Schematic
+![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/schematic_Teensey3.2.gif)
 
 
 ## How to detect the fall?
@@ -38,6 +39,7 @@ An SOS call can be placed manually by the person wearing it. Although not design
 
 
 ## Firmware Code
+[Firmware Code](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Codes/Code_Main/Fall_Detection_System_Teensey/Fall_Detection_System_Teensey.ino)
 
 ## Circuit Employed
 
