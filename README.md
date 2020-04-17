@@ -99,13 +99,16 @@ The Teensy 3.2 is a complete USB-based microcontroller development system, in a 
 - 16 DMA channels (separate from USB)
 - Touch Sensor Inputs
 
+	Purchase Teensy 3.2 form [Here](https://www.pjrc.com/store/teensy32.html)
+
 ### Power Supply and Battery
 * **Battery**
 Lithium-Ion Polymer Battery - 3.7v 500mAh
 The batteries come pre-attached with a genuine 2-pin JST-PH connector as shown and include the necessary protection circuitry. Because they have a genuine JST connector, not a knock-off, the cable won't snag or get stuck in a matching JST jack, they click in and out smoothly. 
 The included protection circuitry keeps the battery voltage from going too high (over-charging) or low (over-use) which means that the battery will cut-out when completely dead at 3.0V. It will also protect against output shorts. However, even with this protection, it is very important that you only use a LiIon/LiPoly constant-voltage/constant-current charger to recharge them and at a rate of 500mA or less.
 
-Purchase the Battery from [Here](https://www.adafruit.com/product/1578)
+	Purchase the Battery from [Here](https://www.adafruit.com/product/1578)
+
 * **Charge Controller**
 Adafruit Micro Lipo - USB LiIon/LiPoly charger - v1 
 To be with Adafruit LiPoly/LiIon batteries only! Other batteries may have different voltage, chemistry, polarity or pinout.
@@ -114,36 +117,49 @@ To be with Adafruit LiPoly/LiIon batteries only! Other batteries may have differ
 Free 2-pin JST cable included!
 The MicroLipo charger can get hot during charging. Grab it by the sides and unplug then let cool before removing the battery - take care not to touch the components during charging!
 
-Purchase the Charger from [Here](https://www.adafruit.com/product/1904)
+	Purchase the Charger from [Here](https://www.adafruit.com/product/1904)
 
 ### Miscellaneous 
 * **Solderless BreadBoard**
+
 ![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/PSX_20200416_013838.jpg)
+
 For initial prototyping and debugging
+
 * **Perforated Board**
+
 To integrate everything we can solder everything on to the solder board so that the components in the final prototype can be rugged and reliable.
+
 * **Header Pins**
+
 To be soldered on to the teensy board as well as the accelerometer boards for soldering it on to the perforated board.
+
 * **Resistors - 10k (I2C Bus), 1M (Vibration Sensing Pull-ups), 1K (LED indicators)**
+
 Used for Biasing, Current limiting and, pulling up certain pins in the microcontroller.
+
 * **Capacitors - 10uF, 1uF, 22pF**
+
 For signal conditioning and improved stability. It also can be used for mechanical debouncing. 
+
 * **LEDs (4 Different Colors)**
+
 4 Different LEDs can tell 4 scenarios:
 1. A falling event has occurred
 2. Potential accident detected. Press button on the device within a given amount of time or an SOS call will be placed.
 3. Manual distress detected as the user has invoked the SOS event himself/herself.
 4. The band has come off loose and the user might want to put on the device properly. 
-* **Single Core Wire**
-For general circuitry and signal communication
 
 * **Magnets**
+
 Size of a mini magnet - 8 x 3 mm, each of our Small Round Magnets has flux index of Magnetic Flux: 42kG2mm2
+
 ![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/51nSu9oA7kL._AC_SS350_.jpg) 
+
 Used for triggering the Hall Effect Sensors in case the band comes off loose in the device worn by the user. Also, these magnets make sure that the band securely grpis the user's hand, one of the required conditions for correctly reading the sensors.
 The image below describs the placement of magnets around the Hall-Effect Sensor. These magnets ensure the secure for of the band. There is another magnet that sits directly above the sensor to ensure that the band is properly secured.  
 ![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/PSX_20200416_014423.jpg)
-				  *Placement of Magnets on the Band*
+<div align="center">*Placement of Magnets on the Band*
 
 Purchase the Magnets from this [Link](https://www.amazon.com/gp/product/B075TJNQQH/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
 
