@@ -3,7 +3,7 @@
 ## About the project
 The wearable falling detection device is a low cost, a prototype device that is developed for the aged/senior people. The person will wear the device on their hand and based on the type of movement, this device detects whether the user is performing their routine tasks or they have experienced sudden jerk/fall. 
 
-The main intent being that the device is supposed to detect danger assioated to falling down, the device is also featured with manual distress alert functionality. The difference being, that now the user can also send an SOS in case he/she experiences danger or distresses not visible to the device itself (for example experiencing lightheadedness).
+The main intent being that the device is supposed to detect danger associated with falling, the device is also featured with manual distress alert functionality. The difference being, that now the user can also send an SOS in case he/she experiences danger or distresses not visible to the device itself (for example experiencing lightheadedness).
 
 ![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/PSX_20190614_190902.jpg)
 
@@ -56,34 +56,34 @@ So based on the possibility of the events the following sensors were used:
 * **Vibration Sensors**
 These vibration switches are non-directional vibration induced trigger switches. Inside is a spring coiled around a long metal pin (Normally Open configuration). When the switch is moved, the spring touches the center pole to make contact. So, when there's motion, the two pins will act like a closed switch. When everything is still, the switch is open. 
 
-	Three Different Vibration Sensitivity switches were employed:
+    Three Different Vibration Sensitivity switches were employed:
 
-	1. Easy Vibration Sensor
-	Can be triggered with the slightest of the motion. So, not very useful to detect strong acceleration but can be used to turn on/off the device when taking off the user's hands and placing it on the shelf. This feature can help a lot to save power.
+    1. Easy Vibration Sensor
+    It can be triggered with the slightest of the motion. So, not very useful to detect strong acceleration but can be used to turn on/off the device when taking off the user's hands and placing it on the shelf. This feature can help a lot to save power.
 
-		Get it from [Here](https://www.adafruit.com/product/1766)
+        Get it from [Here](https://www.adafruit.com/product/1766)
 
-	2. Medium Vibration Sensor
-	These are not so easy to trigger sensors but in case a shock is experienced, the coils will trigger several times, the frequency of which can be taken into consideration along with the Hard Vibration sensor to conclude an occurred event.
+    2. Medium Vibration Sensor
+    These are not so easy to trigger sensors but in case a shock is experienced, the coils will trigger several times, the frequency of which can be taken into consideration along with the Hard Vibration sensor to conclude an occurred event.
 
-		Get it from [Here](https://www.adafruit.com/product/2384)
+        Get it from [Here](https://www.adafruit.com/product/2384)
 
-	3. Hard Vibration Sensor
-	Similar to medium vibration sensors but with a stiffer spring, these sensors are going to make a certain number of triggers but are lower in count compared to the medium switch for the same amount of vibration.
+    3. Hard Vibration Sensor
+    Similar to medium vibration sensors but with a stiffer spring, these sensors are going to make a certain number of triggers but are lower in count compared to the medium switch for the same amount of vibration.
 
-		Get it from [Here](https://www.adafruit.com/product/1767)
+        Get it from [Here](https://www.adafruit.com/product/1767)
 
 * **ADXL343 Accelerometer**
 This is a triple-axis accelerometer with digital I2C and SPI interface breakout. It has a wide sensitivity range and high resolution, operating with a 10 or 13-bit internal ADC. Built-in motion detection features make tap, double-tap, activity, inactivity, and free-fall detection trivial. There are two interrupt pins, and you can map any of the interrupts independently to either of them.
 The sensor has three axes of measurements, X Y Z, and pins that can be used either as I2C or SPI digital interfacing. You can set the sensitivity level to either +-2g, +-4g, +-8g or +-16g. The lower range gives more resolution for slow movements, the higher range is good for high-speed tracking. 
-	Purchase the ADXL343 Accelerometer from [Here](https://www.adafruit.com/product/4097)
+    Purchase the ADXL343 Accelerometer from [Here](https://www.adafruit.com/product/4097)
 
 * **US5881LUA (Hall-Effect Sensor)**
 Hall effect sensors detect whether a magnet is near. Useful for non-contact/waterproof type switches, position sensors, rotary/shaft encoders.
 Runs at 3.5V up to 24V. To use connect power to pin 1 (to the left), ground to pin 2 (middle) and then a 10K pull up resistor from pin 3 to power. Then listen on pin 3, when the south pole of a magnet is near the front of the sensor, pin 3 will go down to 0V. Otherwise, it will stay at whatever the pullup resistor is connected to. Nothing occurs if a magnet's north pole is nearby (unipolar).
 This is used to ensure that the device put on by the user has not come loose as the magnets will immediately trigger the microcontroller about such an event and a warning Led can be turned on. 
 
-	Purchase the US5881LUA (Hall-Effect Sensor) fom this [Link](https://www.adafruit.com/product/158)
+    Purchase the US5881LUA (Hall-Effect Sensor) from this [Link](https://www.adafruit.com/product/158)
 
 ### Development Platform | Teeny 3.2
 
@@ -107,7 +107,7 @@ The Teensy 3.2 is a complete USB-based microcontroller development system, in a 
 - 16 DMA channels (separate from USB)
 - Touch Sensor Inputs
 
-	Purchase Teensy 3.2 form [Here](https://www.pjrc.com/store/teensy32.html)
+    Purchase Teensy 3.2 form [Here](https://www.pjrc.com/store/teensy32.html)
 
 ### Power Supply and Battery
 * **Battery**
@@ -115,7 +115,7 @@ Lithium-Ion Polymer Battery - 3.7v 500mAh
 The batteries come pre-attached with a genuine 2-pin JST-PH connector as shown and include the necessary protection circuitry. Because they have a genuine JST connector, not a knock-off, the cable won't snag or get stuck in a matching JST jack, they click in and out smoothly. 
 The included protection circuitry keeps the battery voltage from going too high (over-charging) or low (over-use) which means that the battery will cut-out when completely dead at 3.0V. It will also protect against output shorts. However, even with this protection, it is very important that you only use a LiIon/LiPoly constant-voltage/constant-current charger to recharge them and at a rate of 500mA or less.
 
-	Purchase the Battery from [Here](https://www.adafruit.com/product/1578)
+    Purchase the Battery from [Here](https://www.adafruit.com/product/1578)
 
 * **Charge Controller**
 Adafruit Micro Lipo - USB LiIon/LiPoly charger - v1 
@@ -125,7 +125,7 @@ To be with Adafruit LiPoly/LiIon batteries only! Other batteries may have differ
 Free 2-pin JST cable included!
 The MicroLipo charger can get hot during charging. Grab it by the sides and unplug then let cool before removing the battery - take care not to touch the components during charging!
 
-	Purchase the Charger from [Here](https://www.adafruit.com/product/1904)
+    Purchase the Charger from [Here](https://www.adafruit.com/product/1904)
 
 ### Miscellaneous 
 * **Solderless BreadBoard**
@@ -161,11 +161,13 @@ For signal conditioning and improved stability. It also can be used for mechanic
 * **Magnets**
 
 Size of a mini magnet - 8 x 3 mm, each of our Small Round Magnets has flux index of Magnetic Flux: 42kG2mm2
+<div align="center"> 
 
 ![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/51nSu9oA7kL._AC_SS350_.jpg) 
+<div align="left"> 
 
-Used for triggering the Hall Effect Sensors in case the band comes off loose in the device worn by the user. Also, these magnets make sure that the band securely grpis the user's hand, one of the required conditions for correctly reading the sensors.
-The image below describs the placement of magnets around the Hall-Effect Sensor. These magnets ensure the secure for of the band. There is another magnet that sits directly above the sensor to ensure that the band is properly secured.  
+Used for triggering the Hall Effect Sensors in case the band comes off loose in the device worn by the user. Also, these magnets make sure that the band securely grips the user's hand, one of the required conditions for correctly reading the sensors.
+The image below describes the placement of magnets around the Hall-Effect Sensor. These magnets ensure the secure fit of the band. There is another magnet that sits directly above the sensor to ensure that the band is properly secured.  
 
 Purchase the Magnets from this [Link](https://www.amazon.com/gp/product/B075TJNQQH/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
 
@@ -174,13 +176,10 @@ Purchase the Magnets from this [Link](https://www.amazon.com/gp/product/B075TJNQ
 *Placement of Magnets on the Band*
 
 <div align="left">
+
 ## Engineering the System
 Based on the potential events described, the system was designed by considering all the possible factors to detect the fall and even exercise some abstruse contingencies to invoke alerts even in the distressful events that are not related to falling but can still help.
 Many power saving features were also used and some that are described were not implemented as the prototype was developed to cover the base case contingencies.
 
-## Pictures
-
-## Future Possibilities
-
-
- 
+## Further Scope
+The further scope of this project to make the system in such a way that the battery can last for a month-long and the device can support wireless charging for an added factor of convenience to the user. The entire assembly can be shifted to an SMT board that will make the hardware more compact and reliable. Also, this will add stability to the circuit. Having the entire circuitry enclosed in a weatherproof casing will be a benefactor to the product life and its performance. And while I strongly believe that any system can be developed to perform better, one has to agree that it can be improved magnitude of times if the person intended to use the technology is trained to use it effectively. Hence to maximize safety, the users who are provided with this technology should be trained to effectively use this device in a potentially distressing situation.
