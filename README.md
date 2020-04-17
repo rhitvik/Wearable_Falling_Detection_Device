@@ -3,10 +3,13 @@
 ## About the project
 The wearable falling detection device is a low cost, a prototype device that is developed for the aged/senior people. The person will wear the device on their hand and based on the type of movement, this device detects whether the user is performing their routine tasks or they have experienced sudden jerk/fall. 
 
-The main intent being that the device is supposed to communicate with the concerned party should the person wearing it takes a fall, the device also featured with manual distress alert functionality. Only the difference was that now the user can also send an SOS in case he/she experiences danger or distresses not visible to the device itself (for example experiencing lightheadedness).
+The main intent being that the device is supposed to detect danger assioated to falling down, the device is also featured with manual distress alert functionality. The difference being, that now the user can also send an SOS in case he/she experiences danger or distresses not visible to the device itself (for example experiencing lightheadedness).
+
+![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/PSX_20190614_190902.jpg)
 
 ## Development Platform
 The development platform used for this prototype is teensy 3.2 featuring an ARM Cortex M-4 core NXP MK20DX256 Microcontroller. Not only it has got ample processing power for the project, but also its ultra-low-power features will ensure that the battery life is very long and even with low battery, the system can be relied upon to some extent (although not recommended though).
+![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/teensy32.jpg)
 
 We can also use a Teensy 4.0 (600 MHz) over Teensy 3.2 (72 MHz) but talking from a wearable device perspective, the Cortex M-4 is more conservative when it comes to consuming power. Also, modeled more towards signal processing models, Teensy 4.0 although more powerful might not the best choice for the project.
 
@@ -71,8 +74,8 @@ Purchase the US5881LUA (Hall-Effect Sensor) fom this [Link](https://www.adafruit
 ### Development Platform | Teeny 3.2
 
 The Teensy 3.2 is a complete USB-based microcontroller development system, in a very small footprint, capable of implementing many types of projects. All programming is done via the USB port. No special programmer is needed, only a standard Mini-B USB cable and a PC or Macintosh with a USB port.
+![Teensy 3.2 Front](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/teensy32_front_pinout.png) ![Teensy 3.2 Back](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/teensy32_back_pinout.png)
 
-![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/teensy32.jpg)
 - 32-bit ARM Cortex-M4 72MHz CPU (M4 = DSP extensions)
 - 256K Flash Memory, 64K RAM, 2K EEPROM
 - 21 High-Resolution Analog Inputs (13 bits usable, 16-bit hardware)
@@ -125,11 +128,12 @@ For signal conditioning and improved stability. It also can be used for mechanic
 For general circuitry and signal communication
 
 * **Magnets**
-Size of a mini magnet - 8 x 3 mm, each of our Small Round Magnets has flux index of Magnetic Flux: 42kG2mm2 
+Size of a mini magnet - 8 x 3 mm, each of our Small Round Magnets has flux index of Magnetic Flux: 42kG2mm2
+![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/51nSu9oA7kL._AC_SS350_.jpg) 
 Used for triggering the Hall Effect Sensors in case the band comes off loose in the device worn by the user. Also, these magnets make sure that the band securely grpis the user's hand, one of the required conditions for correctly reading the sensors.
 The image below describs the placement of magnets around the Hall-Effect Sensor. These magnets ensure the secure for of the band. There is another magnet that sits directly above the sensor to ensure that the band is properly secured.  
 ![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/PSX_20200416_014423.jpg)
-*Placement of Magnets on the Band*
+				  *Placement of Magnets on the Band*
 
 Purchase the Magnets from this [Link](https://www.amazon.com/gp/product/B075TJNQQH/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
 
