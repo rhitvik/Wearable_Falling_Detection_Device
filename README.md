@@ -133,8 +133,10 @@ The MicroLipo charger can get hot during charging. Grab it by the sides and unpl
 * **Solderless BreadBoard**
 
 ![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/PSX_20200416_013838.jpg)
+<div align="center"> 
 
 *For initial prototyping and debugging solderless breadboard is a good option*
+<div align="left"> 
 
 * **Perforated Board**
 
