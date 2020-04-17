@@ -9,13 +9,19 @@ The main intent being that the device is supposed to detect danger assioated to 
 
 ## Development Platform
 The development platform used for this prototype is teensy 3.2 featuring an ARM Cortex M-4 core NXP MK20DX256 Microcontroller. Not only it has got ample processing power for the project, but also its ultra-low-power features will ensure that the battery life is very long and even with low battery, the system can be relied upon to some extent (although not recommended though).
+<div align="center"> 
+
 ![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/teensy32.jpg)
+<div align="left"> 
 
 We can also use a Teensy 4.0 (600 MHz) over Teensy 3.2 (72 MHz) but talking from a wearable device perspective, the Cortex M-4 is more conservative when it comes to consuming power. Also, modeled more towards signal processing models, Teensy 4.0 although more powerful might not the best choice for the project.
 
 ### Teensy 3.2 Schematic
+<div align="center"> 
+
 ![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/schematic_Teensey3.2.gif)
 
+<div align="left"> 
 
 ## How to detect the fall?
 For detecting a fall we will need to devise an event-driven machine that reads multiple sensors to conclude whether or not a person wearing it has fallen or not along with added optimizations of course.
@@ -82,8 +88,10 @@ This is used to ensure that the device put on by the user has not come loose as 
 ### Development Platform | Teeny 3.2
 
 The Teensy 3.2 is a complete USB-based microcontroller development system, in a very small footprint, capable of implementing many types of projects. All programming is done via the USB port. No special programmer is needed, only a standard Mini-B USB cable and a PC or Macintosh with a USB port.
+<div align="center"> 
 
 ![Teensy 3.2 Front](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/teensy32_front_pinout.png) ![Teensy 3.2 Back](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/teensy32_back_pinout.png)
+<div align="left"> 
 
 - 32-bit ARM Cortex-M4 72MHz CPU (M4 = DSP extensions)
 - 256K Flash Memory, 64K RAM, 2K EEPROM
