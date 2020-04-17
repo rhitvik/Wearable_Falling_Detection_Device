@@ -162,7 +162,8 @@ The image below describs the placement of magnets around the Hall-Effect Sensor.
 Purchase the Magnets from this [Link](https://www.amazon.com/gp/product/B075TJNQQH/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
 
 ![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/PSX_20200416_014423.jpg)
-<div align="center"> *Placement of Magnets on the Band*
+<div align="center"> 
+*Placement of Magnets on the Band*
 
 <div align="left">
 ## Engineering the System
