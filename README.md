@@ -158,11 +158,13 @@ Size of a mini magnet - 8 x 3 mm, each of our Small Round Magnets has flux index
 
 Used for triggering the Hall Effect Sensors in case the band comes off loose in the device worn by the user. Also, these magnets make sure that the band securely grpis the user's hand, one of the required conditions for correctly reading the sensors.
 The image below describs the placement of magnets around the Hall-Effect Sensor. These magnets ensure the secure for of the band. There is another magnet that sits directly above the sensor to ensure that the band is properly secured.  
-![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/PSX_20200416_014423.jpg)
-<div align="center">*Placement of Magnets on the Band*
 
 Purchase the Magnets from this [Link](https://www.amazon.com/gp/product/B075TJNQQH/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
 
+![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/PSX_20200416_014423.jpg)
+<div align="center"> *Placement of Magnets on the Band*
+
+<div align="left">
 ## Engineering the System
 Based on the potential events described, the system was designed by considering all the possible factors to detect the fall and even exercise some abstruse contingencies to invoke alerts even in the distressful events that are not related to falling but can still help.
 Many power saving features were also used and some that are described were not implemented as the prototype was developed to cover the base case contingencies.
