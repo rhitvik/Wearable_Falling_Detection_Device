@@ -110,14 +110,15 @@ Purchase the Charger from [Here](https://www.adafruit.com/product/1904)
 
 ### Miscellaneous 
 * **Solderless BreadBoard**
+![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/PSX_20200416_013838.jpg)
 For initial prototyping and debugging
 * **Perforated Board**
 To integrate everything we can solder everything on to the solder board so that the components in the final prototype can be rugged and reliable.
 * **Header Pins**
-To be soldered on to the teensy board as well as the accelerometer boards for fixing it onto the perforated board.
-* **Resistors**
+To be soldered on to the teensy board as well as the accelerometer boards for soldering it on to the perforated board.
+* **Resistors - 10k (I2C Bus), 1M (Vibration Sensing Pull-ups), 1K (LED indicators)**
 Used for Biasing, Current limiting and, pulling up certain pins in the microcontroller.
-* **Capacitors**
+* **Capacitors - 10uF, 1uF, 22pF**
 For signal conditioning and improved stability. It also can be used for mechanical debouncing. 
 * **LEDs (4 Different Colors)**
 4 Different LEDs can tell 4 scenarios:
