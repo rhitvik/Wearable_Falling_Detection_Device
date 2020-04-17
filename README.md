@@ -113,21 +113,21 @@ The Teensy 3.2 is a complete USB-based microcontroller development system, in a 
 * **Battery**
 Lithium-Ion Polymer Battery - 3.7v 500mAh.
 
-The batteries come pre-attached with a genuine 2-pin JST-PH connector as shown and include the necessary protection circuitry. Because they have a genuine JST connector, not a knock-off, the cable won't snag or get stuck in a matching JST jack, they click in and out smoothly. 
-The included protection circuitry keeps the battery voltage from going too high (over-charging) or low (over-use) which means that the battery will cut-out when completely dead at 3.0V. It will also protect against output shorts. However, even with this protection, it is very important that you only use a LiIon/LiPoly constant-voltage/constant-current charger to recharge them and at a rate of 500mA or less.
+	The batteries come pre-attached with a genuine 2-pin JST-PH connector as shown and include the necessary protection circuitry. Because they have a genuine JST connector, not a knock-off, the cable won't snag or get stuck in a matching JST jack, they click in and out smoothly. 
+	The included protection circuitry keeps the battery voltage from going too high (over-charging) or low (over-use) which means that the battery will cut-out when completely dead at 3.0V. It will also protect against output shorts. However, even with this protection, it is very important that you only use a LiIon/LiPoly constant-voltage/constant-current charger to recharge them and at a rate of 500mA or less.
 
     *Purchase the Battery from [Here](https://www.adafruit.com/product/1578)*
 
 * **Charge Controller**
-Adafruit Micro Lipo - USB LiIon/LiPoly charger - v1
+	Adafruit Micro Lipo - USB LiIon/LiPoly charger - v1
 
-To be with Adafruit LiPoly/LiIon batteries only! Other batteries may have different voltage, chemistry, polarity or pinout.
-5V input via PCB-style USB connector For charging single Lithium Ion/Lithium Polymer 3.7/4.2v batteries (not for older 3.6/4.1v cells)
-100mA charge current, adjustable to 500mA by soldering a jumper closed
-Free 2-pin JST cable included!
-The MicroLipo charger can get hot during charging. Grab it by the sides and unplug then let cool before removing the battery - take care not to touch the components during charging!
+	To be with Adafruit LiPoly/LiIon batteries only! Other batteries may have different voltage, chemistry, polarity or pinout.
+	5V input via PCB-style USB connector For charging single Lithium Ion/Lithium Polymer 3.7/4.2v batteries (not for older 3.6/4.1v cells)
+	100mA charge current, adjustable to 500mA by soldering a jumper closed
+	Free 2-pin JST cable included!
+	The MicroLipo charger can get hot during charging. Grab it by the sides and unplug then let cool before removing the battery - take care not to touch the components during charging!
 
-    *Purchase the Charger from [Here](https://www.adafruit.com/product/1904)*
+	*Purchase the Charger from [Here](https://www.adafruit.com/product/1904)*
 
 ### Miscellaneous 
 * **Solderless BreadBoard**
@@ -166,7 +166,9 @@ The MicroLipo charger can get hot during charging. Grab it by the sides and unpl
 <div align="center"> 
 
 ![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/51nSu9oA7kL._AC_SS350_.jpg) 
+	
 	*Size of a mini magnet - 8 x 3 mm, each of these Small Round Magnets has flux index of Magnetic Flux: 42kG2mm2*
+
 <div align="left"> 
 	Used for triggering the Hall Effect Sensors in case the band comes off loose in the device worn by the user. Also, these magnets make sure that the band securely grips the user's hand, one of the required conditions for correctly reading the sensors.
 	The image below describes the placement of magnets around the Hall-Effect Sensor. These magnets ensure the secure fit of the band. There is another magnet that sits directly above the sensor to ensure that the band is properly secured.  
