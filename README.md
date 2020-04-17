@@ -163,11 +163,10 @@ The MicroLipo charger can get hot during charging. Grab it by the sides and unpl
 	4. The band has come off loose and the user might want to put on the device properly. 
 
 * **Magnets**
-
-	Size of a mini magnet - 8 x 3 mm, each of our Small Round Magnets has flux index of Magnetic Flux: 42kG2mm2
 <div align="center"> 
 
 ![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/51nSu9oA7kL._AC_SS350_.jpg) 
+	*Size of a mini magnet - 8 x 3 mm, each of these Small Round Magnets has flux index of Magnetic Flux: 42kG2mm2*
 <div align="left"> 
 	Used for triggering the Hall Effect Sensors in case the band comes off loose in the device worn by the user. Also, these magnets make sure that the band securely grips the user's hand, one of the required conditions for correctly reading the sensors.
 	The image below describes the placement of magnets around the Hall-Effect Sensor. These magnets ensure the secure fit of the band. There is another magnet that sits directly above the sensor to ensure that the band is properly secured.  
