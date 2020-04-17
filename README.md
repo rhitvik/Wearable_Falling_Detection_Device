@@ -70,7 +70,7 @@ Purchase the US5881LUA (Hall-Effect Sensor) fom this [Link](https://www.adafruit
 
 The Teensy 3.2 is a complete USB-based microcontroller development system, in a very small footprint, capable of implementing many types of projects. All programming is done via the USB port. No special programmer is needed, only a standard Mini-B USB cable and a PC or Macintosh with a USB port.
 
-![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/teensy32_front_pinout.png) ![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/teensy32_back_pinout.png)
+![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/teensy32.jpg)
 - 32-bit ARM Cortex-M4 72MHz CPU (M4 = DSP extensions)
 - 256K Flash Memory, 64K RAM, 2K EEPROM
 - 21 High-Resolution Analog Inputs (13 bits usable, 16-bit hardware)
