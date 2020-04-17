@@ -65,7 +65,9 @@ Purchase the ADXL343 Accelerometer from [Here](https://www.adafruit.com/product/
 Hall effect sensors detect whether a magnet is near. Useful for non-contact/waterproof type switches, position sensors, rotary/shaft encoders.
 Runs at 3.5V up to 24V. To use connect power to pin 1 (to the left), ground to pin 2 (middle) and then a 10K pull up resistor from pin 3 to power. Then listen on pin 3, when the south pole of a magnet is near the front of the sensor, pin 3 will go down to 0V. Otherwise, it will stay at whatever the pullup resistor is connected to. Nothing occurs if a magnet's north pole is nearby (unipolar).
 This is used to ensure that the device put on by the user has not come loose as the magnets will immediately trigger the microcontroller about such an event and a warning Led can be turned on. 
+
 Purchase the US5881LUA (Hall-Effect Sensor) fom this [Link](https://www.adafruit.com/product/158)
+
 ### Development Platform | Teeny 3.2
 
 The Teensy 3.2 is a complete USB-based microcontroller development system, in a very small footprint, capable of implementing many types of projects. All programming is done via the USB port. No special programmer is needed, only a standard Mini-B USB cable and a PC or Macintosh with a USB port.
@@ -90,6 +92,7 @@ The Teensy 3.2 is a complete USB-based microcontroller development system, in a 
 Lithium-Ion Polymer Battery - 3.7v 500mAh
 The batteries come pre-attached with a genuine 2-pin JST-PH connector as shown and include the necessary protection circuitry. Because they have a genuine JST connector, not a knock-off, the cable won't snag or get stuck in a matching JST jack, they click in and out smoothly. 
 The included protection circuitry keeps the battery voltage from going too high (over-charging) or low (over-use) which means that the battery will cut-out when completely dead at 3.0V. It will also protect against output shorts. However, even with this protection, it is very important that you only use a LiIon/LiPoly constant-voltage/constant-current charger to recharge them and at a rate of 500mA or less.
+
 Purchase the Battery from [Here](https://www.adafruit.com/product/1578)
 * **Charge Controller**
 Adafruit Micro Lipo - USB LiIon/LiPoly charger - v1 
@@ -98,6 +101,7 @@ To be with Adafruit LiPoly/LiIon batteries only! Other batteries may have differ
 100mA charge current, adjustable to 500mA by soldering a jumper closed
 Free 2-pin JST cable included!
 The MicroLipo charger can get hot during charging. Grab it by the sides and unplug then let cool before removing the battery - take care not to touch the components during charging!
+
 Purchase the Charger from [Here](https://www.adafruit.com/product/1904)
 
 ### Miscellaneous 
@@ -121,7 +125,12 @@ For signal conditioning and improved stability. It also can be used for mechanic
 For general circuitry and signal communication
 
 * **Magnets**
-For triggering the Hall Effect Sensors in case the band comes off loose in the device worn by the user.
+Size of a mini magnet - 8 x 3 mm, each of our Small Round Magnets has flux index of Magnetic Flux: 42kG2mm2 
+Used for triggering the Hall Effect Sensors in case the band comes off loose in the device worn by the user. Also, these magnets make sure that the band securely grpis the user's hand, one of the required conditions for correctly reading the sensors.
+The image below describs the placement of magnets around the Hall-Effect Sensor. These magnets ensure the secure for of the band. There is another magnet that sits directly above the sensor to ensure that the band is properly secured.  
+![](https://github.com/rhitvik/Wearable_Falling_Detection_Device/blob/master/Images_and_Screenshots/PSX_20200416_014423.jpg)
+*Placement of Magnets on the Band*
+
 Purchase the Magnets from this [Link](https://www.amazon.com/gp/product/B075TJNQQH/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
 
 ## Engineering the System
