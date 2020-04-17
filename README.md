@@ -53,13 +53,16 @@ These vibration switches are non-directional vibration induced trigger switches.
 3 Different Vibration Sensitivity switches were employed:
 1. Easy Vibration Sensor
 * Can be triggered with the slightest of the motion. So, not very useful to detect strong acceleration but can be used to turn on/off the device when taking off the user's hands and placing it on the shelf. This feature can help a lot to save power.
-Get it from [Here](https://www.adafruit.com/product/1766)
+
+	Get it from [Here](https://www.adafruit.com/product/1766)
 2. Medium Vibration Sensor
 These are not so easy to trigger sensors but in case a shock is experienced, the coils will trigger several times, the frequency of which can be taken into consideration along with the Hard Vibration sensor to conclude an occurred event.
-Get it from [Here](https://www.adafruit.com/product/2384)
+
+	Get it from [Here](https://www.adafruit.com/product/2384)
 3. Hard Vibration Sensor
 Similar to medium vibration sensors but with a stiffer spring, these sensors are going to make a certain number of triggers but are lower in count compared to the medium switch for the same amount of vibration.
-Get it from [Here](https://www.adafruit.com/product/1767)
+
+	Get it from [Here](https://www.adafruit.com/product/1767)
 * **ADXL343 Accelerometer**
 This is a triple-axis accelerometer with digital I2C and SPI interface breakout. It has a wide sensitivity range and high resolution, operating with a 10 or 13-bit internal ADC. Built-in motion detection features make tap, double-tap, activity, inactivity, and free-fall detection trivial. There are two interrupt pins, and you can map any of the interrupts independently to either of them.
 The sensor has three axes of measurements, X Y Z, and pins that can be used either as I2C or SPI digital interfacing. You can set the sensitivity level to either +-2g, +-4g, +-8g or +-16g. The lower range gives more resolution for slow movements, the higher range is good for high-speed tracking. 
